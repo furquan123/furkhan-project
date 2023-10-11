@@ -16,6 +16,6 @@ services:
       - "8002:80"
 
   metro: 
-  image: fk23/furkhanmetro:v1
+    image: fk23/furkhanmetro:v1
     ports: 
       - "8003:80"      
