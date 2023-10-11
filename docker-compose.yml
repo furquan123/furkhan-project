@@ -1,0 +1,21 @@
+version: '3'
+services:
+  train:
+    image: fk23/furkhantrain:v1
+    ports:
+      - "8000:80"
+
+  bank:
+    image: fk23/furkhanbank:v1
+    ports:
+      - "8001:80"
+
+  loan:
+    image: fk23/furkhanloan:v1
+    ports:
+      - "8002:80"
+
+  metro: 
+  image: fk23/furkhanmetro:v1
+    ports: 
+      - "8003:80"      
